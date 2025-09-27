@@ -20,7 +20,7 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 850px;
+    max-width: 650px;
     margin: 0 auto;
 }
 
@@ -154,22 +154,22 @@ footer {
 
 /* Media Queries */
 @media(min-width: 493px) {
-    header{
-    text-align: center;
-
+    header {
+        text-align: center;
+        padding: 1.25rem;
     }
+
     header h1 {
-        font-size: 4rem;
-        padding-top: 2rem;
+        font-size: 3rem;
     }
 
     header h3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     #color-palette {
         grid-template-columns: repeat(5, 1fr);
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         border-end-start-radius: 6px;
         border-end-end-radius: 6px;
     }
@@ -189,7 +189,6 @@ footer {
 
     select {
         border: 2px solid #D1D5DB;
-        font-weight: bold;
     }
 
     button {

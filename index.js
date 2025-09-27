@@ -1,4 +1,3 @@
-// Select DOM elements
 const form = document.getElementById("color-form")
 const colorInput = document.getElementById("colorpicker")
 const schemeSelect = document.getElementById("scheme")
